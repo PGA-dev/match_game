@@ -1,0 +1,43 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    text-align: center;
+    color: blueviolet;
+
+}
+
+h2 {
+    color: cadetblue;
+    text-align: center;
+}
+
+#scoreText {
+    color: cornflowerblue;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-align:center; */
+    color: rgb(0, 255, 247);
+
+}
+
+body {
+    background-color: black;
+
+}
+
+img {
+    position: absolute;
+}
+
+div {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+}
+
+#rightSide {
+    left: 800px;
+    border-left: 10px blueviolet solid;
+}
