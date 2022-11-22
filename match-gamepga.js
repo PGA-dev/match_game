@@ -15,7 +15,6 @@ function generateFaces() {
         face.src = 'image/' + animalArray[randomFace];
         let randomTop = Math.floor(Math.random() * 700) + 1;
         let randomLeft = Math.floor(Math.random() * 700) + 1;
-
         face.style.top = randomTop + 'px';
         face.style.left = randomLeft + 'px';
         theLeftSide.appendChild(face);
@@ -62,7 +61,7 @@ function getScore(score) {
 }
 
 function gameOver() {
-    alert('You Lose!\n\n You won ' + rounds + ' rounds, and made:  ' + score + ' points!');
+    alert('You Lose!\n\n You won ' + rounds + ' rounds, and made:  ' + score + ' points! ');
     document.body.removeEventListener('click', gameOver);
     theLeftSide.lastChild.removeEventListener('click', nextLevel);
     reloadGame();
