@@ -4,47 +4,98 @@
     /*Colors*/
 
     --site-black: rgba(0,0,0, 1);
-    --background1: rgba(0, 255, 255, 1);
-    --background2: rgba(0, 255, 255, .8);
-    --background3: rgba(0, 255, 255, .6);
-    --background4: rgba(0, 255, 255, .4);
 
-    --background-blend-linear: linear-gradient(to right,var(--background1), var(--background2), var(--site-black), var(--background4),var(--site-black),var(--background3), var(--background2), var(--site-black),var(--background1));
+    --heading1: rgba(100, 0, 200, 1);
+    --heading2: rgba(0, 100, 255, 1);
+    --heading-sub1: rgba(100,255,255,1);
+    --heading-sub2: rgba(255, 100, 255,.8);
+
+
+
+    --background-blend-linear: linear-gradient(to right,var(--background1), var(--background2), var(--site-black), var(--background4),var(--site-black));
 }
 
+html{
+    color-scheme: dark light;
+  }
+  
+  img{
+    max-width: 100%;
+    position: absolute;
+  }
+  
 
-h1 {
+
+.heading {
+    display: inline-block;
+    /* top: 0; */
+    max-height: 50px;
+    position: relative;
+    width: 100%;
+
+}
+
+.heading2 {
+    display: block;
+    /* top: 250; */
+    max-height: 50px;
+    width:100%;
+    position: relative;
+
+}
+
+.score{
+    display: block;
+    /* top: 250; */
+    max-height: 50px;
+    width:100%;
+    position: relative; 
+}
+
+.score h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1em 8em 1em;
+    font-size: 1em;
+    text-align: left;
+    color: var(--heading2);
+    text-shadow: .02em .02em var(--heading-sub2);
+}
+
+.heading h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0em 9em .5em;
+    padding: auto;
     font-size: 3em;
     text-align: center;
-    color: blueviolet;
+    color: var(--heading1);
+    text-shadow: .02em .02em var(--heading-sub1);
 
+    
 }
 
-h2 {
-    color: cadetblue;
+.heading2 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1em 9em 1em;
+    font-size: 1em;
     text-align: center;
+    color: var(--heading2);
+    text-shadow: .02em .02em var(--heading-sub2);
 }
 
 #scoreText {
     color: cornflowerblue;
 }
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    /* text-align:center; */
-    color: rgb(0, 255, 247);
-
-}
 
 body {
-    background-image: var(--background-blend-linear);
+    background-image: url(./back/aron-visuals-4zxSWESyZio-unsplash.jpg), url(./back/k-k-RnPuMyvPtss-unsplash.jpg);
+    background-size: 65em;
+    background-repeat: repeat;
+    background-blend-mode: color-burn; 
+
 
 }
 
-img {
-    position: absolute;
-}
 
 div {
     position: absolute;
