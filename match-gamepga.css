@@ -1,6 +1,21 @@
+/*Match Game CSS*/
+:root{
+
+    /*Colors*/
+
+    --site-black: rgba(0,0,0, 1);
+    --background1: rgba(0, 255, 255, 1);
+    --background2: rgba(0, 255, 255, .8);
+    --background3: rgba(0, 255, 255, .6);
+    --background4: rgba(0, 255, 255, .4);
+
+    --background-blend-linear: linear-gradient(to right,var(--background1), var(--background2), var(--site-black), var(--background4),var(--site-black),var(--background3), var(--background2), var(--site-black),var(--background1));
+}
+
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 75px;
+    font-size: 3em;
     text-align: center;
     color: blueviolet;
 
@@ -23,7 +38,7 @@ p {
 }
 
 body {
-    background-color: black;
+    background-image: var(--background-blend-linear);
 
 }
 
@@ -33,8 +48,8 @@ img {
 
 div {
     position: absolute;
-    width: 800px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
 }
 
 #rightSide {

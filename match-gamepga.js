@@ -13,8 +13,8 @@ function generateFaces() {
         let randomFace = Math.floor(Math.random() * animalArray.length);
         let face = document.createElement('img');
         face.src = 'image/' + animalArray[randomFace];
-        let randomTop = Math.floor(Math.random() * 700) + 1;
-        let randomLeft = Math.floor(Math.random() * 700) + 1;
+        let randomTop = Math.floor(Math.random() * 400) + 1;
+        let randomLeft = Math.floor(Math.random() * 400) + 1;
         face.style.top = randomTop + 'px';
         face.style.left = randomLeft + 'px';
         theLeftSide.appendChild(face);
