@@ -108,8 +108,8 @@ div {
 
 .screen, #screen {
     width: 100%;
+    margin: 0em 2em 2em;
     border-bottom: 5em solid var(--site-black);
-    border-top: .1em ridge var(--site-black);
     overflow-x: clip;
     overflow-y: visible;
 }
