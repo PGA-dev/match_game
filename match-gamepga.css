@@ -82,9 +82,7 @@ html{
     text-shadow: .02em .02em var(--heading-sub2);
 }
 
-#scoreText {
-    color: cornflowerblue;
-}
+
 
 
 body {
@@ -106,4 +104,12 @@ div {
 #rightSide {
     left: 800px;
     border-left: 10px blueviolet solid;
+}
+
+.screen, #screen {
+    width: 100%;
+    border-bottom: 5em solid var(--site-black);
+    border-top: .1em ridge var(--site-black);
+    overflow-x: clip;
+    overflow-y: visible;
 }
