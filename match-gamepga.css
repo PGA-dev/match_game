@@ -28,7 +28,6 @@ html{
 
 .heading {
     display: inline-block;
-    /* top: 0; */
     max-height: 50px;
     position: relative;
     width: 100%;
@@ -37,7 +36,6 @@ html{
 
 .heading2 {
     display: block;
-    /* top: 250; */
     max-height: 50px;
     width:100%;
     position: relative;
@@ -46,7 +44,6 @@ html{
 
 .score{
     display: block;
-    /* top: 250; */
     max-height: 50px;
     width:100%;
     position: relative; 
@@ -75,7 +72,7 @@ html{
 
 .heading2 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 1em 9em 1em;
+    margin: 1em 9em 0em;
     font-size: 1em;
     text-align: center;
     color: var(--heading2);
