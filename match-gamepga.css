@@ -60,7 +60,7 @@ html{
 
 .heading h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0em 9em .5em;
+    margin: 0em 9em;
     padding: auto;
     font-size: 3em;
     text-align: center;
@@ -72,7 +72,7 @@ html{
 
 .heading2 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 1em 9em 0em;
+    margin: .7em 9em 0em;
     font-size: 1em;
     text-align: center;
     color: var(--heading2);
