@@ -1,0 +1,13 @@
+{
+  "name": "forrestgame",
+  "version": "1.0.0",
+  "description": "## PGA",
+  "main": "match-gamepga.js",
+  "scripts": {
+    "start":"match-gamepga.html",
+    "build":"match-gamepga.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
